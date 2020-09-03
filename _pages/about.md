@@ -12,7 +12,8 @@ unknowingly give up a significant amount of data and meta-data.
 
 Even if little pieces of data might not seem that valuable to a private individual, attackers
 and hostile entities collecting large amounts of this seemingly trivial data can develop a 
-massive financial, social and political leverage on people as a whole. 
+massive financial, social and political leverage on people as a whole, or even sometimes
+against individuals as well.
 
 While there are initiatives and even laws in some jurisdictions around the world
 to handle user's data properly, the requirements
