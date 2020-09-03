@@ -12,6 +12,8 @@ menu_settings:
       url: '/'
     - title: 'Articles'
       url: '/blog/'
+    - title: 'Privacy'
+      url: '/privacy'
     - title: 'About'
       url: '/about'
 
