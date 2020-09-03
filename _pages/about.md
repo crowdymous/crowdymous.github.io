@@ -1,32 +1,25 @@
 ---
-title: About me
-subtitle: Personal is the perfect theme for developers, designers and other creatives.
-description: Personal is the perfect theme for developers, designers and other creatives.
-featured_image: /images/demo/about.jpg
+title: Crowdymous
+subtitle: Anonymity and Privacy for All
+featured_image:
 ---
 
-## Features
+## Our mission is to help transition the world to anonymity and privacy preserving interactions.
 
-We've packed Personal full of powerful features to help showcase your work:
+Most interactions on the internet, whether it is communications, search, or even checking the weather
+are not anonymity nor privacy preserving. Users who interact with companies knowingly and often
+unknowingly give up a significant amount of data and meta-data. 
 
-* Beautiful, minimal design
-* Large header image and single column post layout
-* Responsive – works perfectly on all devices
-* Portfolio post type
-* Blog with pagination
-* Sleek Ajax navigation and page transitions
-* Unique 'gallery' feature for image grids and carousels
-* Built-in contact form with Formspree integration
-* Full markdown support and code highlighting
-* Social media icons
-* Fast page rendering
-* Built with SEO best practices in mind
-* Customize everything – colors, spacing, fonts, sizes etc. – via a simple settings file
-* Works with GitHub Pages
-* Updated and supported by the developers
+Even if little pieces of data might not seem that valuable to a private individual, attackers
+and hostile entities collecting large amounts of this seemingly trivial data can develop a 
+massive financial, social and political leverage on people as a whole. 
 
-## Get Personal
+While there are initiatives and even laws in some jurisdictions around the world
+to handle user's data properly, the requirements
+and especially the implementations are inadequate. Most just delegate this responsibility
+to the companies, even if there are proper cryptographic tools that could
+be used to keep this responsibility at the user where it belongs.
 
-Personal is created and supported by [Jekyll Themes](https://jekyllthemes.io), and is available for $49.
-
-<a href="https://jekyllthemes.io/theme/personal-website-jekyll-theme" class="button button--large">Get This Theme</a>
+In line with our mission we will introduce tools, procedures, software, perhaps
+even laws, that will help users retain control over all aspects of anonymity and privacy
+in all interactions.
