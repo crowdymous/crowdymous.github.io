@@ -1,7 +1,7 @@
 ---
 title: Privacy Policy
 subtitle: Last updated 03.09.2020
-featured_image:
+featured_image: images/masked-telephone.jpg
 ---
 
 ## TL;DR

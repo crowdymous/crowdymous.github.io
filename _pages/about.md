@@ -1,7 +1,7 @@
 ---
 title: Crowdymous
 subtitle: Anonymity and Privacy for All
-featured_image:
+featured_image: images/masked-telephone.jpg
 ---
 
 ## Our mission is to help transition the world to anonymity and privacy preserving interactions.
