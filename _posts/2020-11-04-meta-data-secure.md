@@ -1,96 +1,73 @@
 ---
 title: 'Meta-Data Security'
-subtitle: 'Why meta-data should matter to everybody'
+subtitle: 'What is meta-data and how to protect it'
 date: 2020-11-04 00:00:00
-description: What is meta-data and more importantly what is its value? How does Dead Drop compare to other services in protecting users' meta-data?
+description: What is meta-data? How do traditional messaging applications protect meta-data vs. how does Dead Drop do it?
 featured_image: images/people_crossing.jpg
 ---
 
 ## What is meta-data?
 
-In short, meta-data is everything other than the actual content of the message. It is
+Meta-data is everything other than the actual content of a message. It is
 data <i>about</i> the data you are actually sending or receiving.
 
-Here are just some things this includes:
+The meta-data of your communication can be used to map your whole social
+network, analyze your habits, your schedule, your daily life,
+your political affiliation, potential medical and legal problems, etc.
 
-* <b>Size of the message</b>. How long the text is, how large the image or video.
-* The type and <b>composition of the message</b>. Is it a text message, does it contain images, videos, audio, etc.
-* <b>Time</b> of sending and receiving.
-* <b>Parties involved</b> in the message. Who sent it, who received it, whether there were multiple recipients and who those were.
+Basically protecting *only* the contents does not give you privacy
+nor anonymity, it just requires the attacker to be a *little bit*
+more resourceful.
 
-The <i>continuous</i> monitoring of such meta-data over time may lead to additional information such as:
+## Traditional messaging services
 
-* With what frequency are two parties communicating. Daily, weekly, etc.?
-* Do parties lead conversations, or is the communication one way?
-* With what real-world events are these communications correlated?
-* What is the <b>social network</b> of any given individual he/she often communicates with. This includes people, companies, political parties, people with certain professions, etc.
+> Most messaging services do not protect your meta-data at all!
 
-## How valuable is it?
+Most messaging services only use **end-to-end encryption** to protect
+the *contents* of your messages strongly. This works for the content. However,
+this is equivalent to sending a *postcard* with the message written
+in some secret code only the recipient knows, but writing the sender
+and recipient name in the clear.
 
-According to some experts[^1] meta-data is at least as valuable, and in certain instances
-can be <i>more</i> valuable than the content itself.
+These services *need* to see the sender and 
+recipient because they need to *deliver* the message to the recipient themselves.
+The problem is, even if the service itself *promises* to not remember
+who is talking to whom and when and how, etc., this information already
+went through *the internet*. It is "out there". Anyone resourceful enough to listen *can* listen. Whether
+they are legal entities, hackers, crackers, disgruntled employees, changed
+leadership at the company, foreign or even national intelligence agencies, etc.
 
-It is not hard to imagine[^2] that contacting a specialist doctor, a lawyer specializing on a certain
-field of law, or an investigative journalist <i>itself</i> can tell the whole story about a situation,
-without looking at the contents of those communications.
+## How does Dead Drop work?
 
-Also revealing is the fact that law enforcement agencies and governments around the world
-<i>want</i> communication meta-data collection[^3][^4][^5][^6].
+The idea is simple. Dead Drop does *not* deliver messages, therefore it doesn't need
+to know the sender nor the recipient. Dead Drop is essentially a broadcast network.
 
-## How do other communication apps protect meta-data?
+This would be like a postcard where you cipher the message as before, but don't need to
+write the sender nor the recipient on the card. Instead you go to a big community wall
+when nobody is looking, and just put your postcard there. Everyone then just looks
+at the wall and tries to decipher all the messages on the wall. The messages that someone *can*
+decipher was obviously meant for them, that's how messages "find their way" to
+the recipient.
 
-Most, even those with end-to-end encryption, simply don't protect meta-data at all! All of the
-information above is available and goes over the public internet unprotected.
+Although there are a lot of technical challenges to overcome to make this happen
+in a technically feasible and scalable way, this strategy does not leak *any*
+meta-data at all. It doesn't go through the internet, nothing has to be "promised",
+the meta-data is just not present at all.
 
-Some services do promise that they immediately delete the data or that they don't keep
-records. Even if that were the case, that information already went through the whole internet 
-infrastructure, was on their servers, however briefly, and then got deleted.
+Also, all the postcards are the same size, and everybody posts postcards at
+regular intervals, even if they
+have nothing to say, in which case they just post some gibberish. With these
+constraints, Dead Drop arrives at a unique trade-off:
 
-It is pretty clear that this level of "protection" is inadequate even if you trust the service. Here
-are some reasons why:
+> In Dead Drop nobody knows whether even a single person is communicating.
 
-* What about third parties <i>listening</i> or <i>logging</i>, not the service itself?
-* What about hackers/crackers that have access to their servers.
-* What about disgruntled employees having access to their servers.
-* What about <i>legal</i> access that <i>need</i> to be provided to law enforcement in some jurisdictions?
-* What about potential laws now <i>or in the future</i> that <i>require</i> some information to be kept?
-* What about attackers of <i>any</i> internet infrastructure between the service's servers and the user?
-* What about <i>legal</i> data surveillance at the internet service provider (ISP) level?
-* ...and so on...
+That includes the Dead Drop servers, our staff, our Hosting Provider, etc. The only
+two people who even know of the *existence* of a message is the sender and the
+recipient of that message.
 
-The only service that at least <i>tries</i> to address these issues is Tor[^7]. But instead of strongly protecting
-meta-data, it tries to statistically <i>mask</i> it, which still leaves it partially open to different categories 
-of statistical analysis[^8].
-
-## How does Dead Drop protect meta-data?
-
-Dead Drop is designed to have <b>zero information</b> not only about the contents of a message
-but also the meta-data of the message. The <i>routing information</i> that causes the problems
-for other services does not reach our servers, nor does it go through the internet. It simply
-does not exists!
-
-How is that possible? It is simple really. Dead Drop is essentially a <i>broadcast</i> network. Everyone can
-hear everyone else, so there is no need for <i>routing</i>. No need for an <i>envelope</i> where the
-sender and recipient needs to be named. A Dead Drop app essentially just listens to everybody and <i>selects</i> the
-messages it can decrypt with its own keys. And because everyone in the Dead Drop network is <i>talking constantly</i>
-at the <i>exact same rate</i> it is impossible to know who is talking to whom, or even <b>who is talking at all</b>.
-
-This level of protection requires a trade-off however. Currently the
-Dead Drop app can only send and receive one text message per hour with a maximum of 10KB each. These limits
-are technical in nature and balance network usage, server resource usage and usability.
-
-For situations where complete anonymity and privacy is of utmost importance even against
-powerful attackers with vast network surveillance and statistical computation capabilities,
-this is the trade-off that <i>has</i> to be made.
-
-[^1]: [Can Snowden finally kill the 'harmless metadata' myth?](https://www.zdnet.com/article/can-snowden-finally-kill-the-harmless-metadata-myth/)
-[^2]: [Here’s how phone metadata can reveal your affairs, abortions, and other secrets](https://www.washingtonpost.com/news/the-switch/wp/2013/08/27/heres-how-phone-metadata-can-reveal-your-affairs-abortions-and-other-secrets/)
-[^3]: [What’s the Matter with Metadata?](https://www.newyorker.com/news/news-desk/whats-the-matter-with-metadata)
-[^4]: [Why Metadata Matters: The Dangers and Revealing Nature of Data Retention](https://www.eff.org/node/81907)
-[^5]: [PRISM](https://en.wikipedia.org/wiki/PRISM_(surveillance_program))
-[^6]: [New German law would force ISPs to allow secret service to install trojans on user devices](https://www.privateinternetaccess.com/blog/new-german-law-would-force-isps-to-allow-secret-service-to-install-trojans-on-user-devices/)
-[^7]: [Tor Project](https://www.torproject.org/)
-[^8]: [Darknet Security: A Categorization of Attacks to the Tor Network](http://ceur-ws.org/Vol-2315/paper10.pdf)
+Even if we provide our service for a 100 years and log each bit of information
+our servers send and receive, at the end of the 100 years we couldn't even tell
+**whether even a single message was exchanged** during those 100 years.
 
 <!--
 <span>Photo by <a href="https://unsplash.com/@ryoji__iwata?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Ryoji Iwata</a> on <a href="https://unsplash.com/s/photos/people?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
