@@ -34,8 +34,8 @@ recipient because they need to *deliver* the message to the recipient themselves
 The problem is, even if the service itself *promises* to not remember
 who is talking to whom and when and how, etc., this information already
 went through *the internet*. It is "out there". Anyone resourceful enough to listen *can* listen. Whether
-they are legal entities, hackers, crackers, disgruntled employees, changed
-leadership at the company, foreign or even national intelligence agencies, etc.
+they are legal entities, hackers, crackers, disgruntled employees, malicious attackers,
+foreign or even domestic intelligence agencies, etc.
 
 ## How does Dead Drop work?
 
