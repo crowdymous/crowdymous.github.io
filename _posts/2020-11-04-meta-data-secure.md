@@ -18,7 +18,7 @@ Here are just some things this includes:
 * <b>Time</b> of sending and receiving.
 * <b>Parties involved</b> in the message. Who sent it, who received it, whether there were multiple recipients and who those were.
 
-The <i>continuous</i> monitoring of such meta-data over time may lead to additional categories such as:
+The <i>continuous</i> monitoring of such meta-data over time may lead to additional information such as:
 
 * With what frequency are two parties communicating. Daily, weekly, etc.?
 * Do parties lead conversations, or is the communication one way?
