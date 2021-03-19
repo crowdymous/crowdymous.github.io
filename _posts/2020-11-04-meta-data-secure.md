@@ -15,7 +15,7 @@ The meta-data of your communication can be used to map your whole social
 network, analyze your habits, your schedule, your daily life,
 your political affiliation, potential medical and legal problems, etc.
 
-Basically protecting *only* the contents does not give you privacy
+Protecting *only* the contents does not give you privacy
 nor anonymity, it just requires the attacker to be a *little bit*
 more resourceful.
 
@@ -49,10 +49,10 @@ at the wall and tries to decipher all the messages on the wall. The messages tha
 decipher was obviously meant for them, that's how messages "find their way" to
 the recipient.
 
-Although there are a lot of technical challenges to overcome to make this happen
+Although there are a lot of technical challenges to make this happen
 in a technically feasible and scalable way, this strategy does not leak *any*
-meta-data at all. It doesn't go through the internet, nothing has to be "promised",
-the meta-data is just not present at all.
+meta-data at all. There is simply no meta-data available, so nothing has to be "promised",
+quickly deleted or physically protected.
 
 Also, all the postcards are the same size, and everybody posts postcards at
 regular intervals, even if they
