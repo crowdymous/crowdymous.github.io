@@ -10,7 +10,7 @@ featured_image: images/phone_user.jpg
 
 While every piece of information about your usage of Dead Drop is completely
 private and secure, the fact that you *are a user of* Dead Drop is visible. Similarly
-when you *became* a user should be also considered public information.
+when you *became* a user should be also considered non-secure information.
 
 It is therefore easy to imagine that if you become a user during some
 real-world events that you want to privately discuss with somebody else,
