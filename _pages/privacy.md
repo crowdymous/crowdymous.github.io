@@ -23,6 +23,12 @@ contains only encrypted information for which only your recipient(s) have
 access to. No other parties, including us can tell what's in the <i>outbox</i>,
 or even if there is something in it or not.
 
+We specifically don't keep your name, address, email, or any identifiers specifically
+referring to you in our database.
+
+Optionally you can register your telephone number to enable others to find you. You
+retain full functionality of our app if you don't do this.
+
 ## How do we use data that is collected?
 
 We use the subscription data to make sure you have access to our services. To do
@@ -40,15 +46,16 @@ Frankfurt / Germany facility.
 If you are a subscriber of our service the only information any third party
 (including us!) is able to know <i>is</i> that you are a subscriber.
 
-This is the only information <i>at risk</i> on our servers. It is cryptographically
+This is the only information <i>at risk</i> on our servers, or on third-party servers,
+like that of Google. It is cryptographically
 guaranteed that we <i>can't</i> know anything more, including whether you
 have even sent or received a single message.
 
 ## How long is this data stored?
 
 This data is stored from the point where you become a subscriber to when
-the subscription ends. When the subscription ends the data is deleted
-permanently.
+you explicitly delete it. You can still delete your data anytime _after_ your subscription
+expired. We don't do this automatically in case you choose to become a subscriber again.
 
 Note, that as subscription information is managed by Google, where this same data
 is under Google's Privacy Policy.
@@ -59,8 +66,8 @@ We do not use any trackers, advertisements, or any third party libraries that co
 
 ## How to delete your data
 
-You can permanently delete any information we store by deleting your subscription, for
-example in the Google Play Store application, under "My Subscriptions".
+As this feature in the app is currently under development, you can delete all your data
+by contacting us at [privacy@crowdymous.com](mailto:privacy@crowdymous.com).
 
 ## Contact
 
@@ -70,4 +77,5 @@ Any questions and requests can be sent to: [privacy@crowdymous.com](mailto:priva
 
 This is a brief overview of changes on this document for transparency reasons:
 
+* 07.07.2020: Add telephone number handling, change data deletion policy to manual
 * 03.09.2020: Initial version
