@@ -14,7 +14,7 @@ when you *became* a user should be also considered non-secure information.
 
 It is therefore easy to imagine that if you become a user during some
 real-world events that you want to privately discuss with somebody else,
-there mere timing of you becoming a user already **puts you potentially
+the mere timing of you becoming a user already **puts you potentially
 under suspicion**.
 
 The only way to preserve ***absolute privacy***[^1] is to become a user
