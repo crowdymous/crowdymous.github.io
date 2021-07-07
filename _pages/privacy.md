@@ -1,6 +1,6 @@
 ---
 title: Privacy Policy
-subtitle: Last updated 03.09.2020
+subtitle: Last updated 07.07.2021
 featured_image: images/masked-telephone.jpg
 ---
 
