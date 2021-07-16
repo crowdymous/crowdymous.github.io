@@ -21,6 +21,6 @@ and especially the implementations are inadequate. Most just delegate this respo
 to the companies, even if there are proper cryptographic tools that could
 be used to keep this responsibility at the user where it belongs.
 
-In line with our mission we will introduce tools, procedures, software, perhaps
-even laws, that will help users retain control over all aspects of anonymity and privacy
+In line with our mission we will help introduce tools, procedures, software or laws,
+that will help users retain control over all aspects of anonymity and privacy
 in all interactions.
