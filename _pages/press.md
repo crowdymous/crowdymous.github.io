@@ -14,6 +14,10 @@ cryptographically impossible to say whether any two people exchanged even a sing
 This guarantee does not come from deleting logs and/or physically securing servers, but from
 hard cryptography.
 
+### Press Releases
+
+* 2021-07-21: [Crowdymous releases Dead Drop, the first ever perfectly meta-data secure communication app]({% post_url 2021-07-21-initialrelease %})
+
 ### Media
 
 #### Logos and Icons
