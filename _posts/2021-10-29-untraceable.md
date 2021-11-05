@@ -120,6 +120,10 @@ Another way to force this information out of the server is to crack (break into)
 digitally or even physically. This is why some companies try really hard to physically secure their servers, or try
 to dissociate the user from their devices as well as possible.
 
+But even if there is no law and the servers are physically secured, what about just paying an
+employee to reveal some data? What about a disgruntled employee taking and revealing some data? *Any*
+information the server knows the provider and its employees could potentially know as well. It is therefore at risk.
+
 The only way to avoid all these problems however is to *not route*. Without the routing, the server doesn't need
 to know anything at all, it is just a technical component that sits somewhere. Even if all the data
 that is available on it is stolen, leaked or collected, there is nothing there. Not even
@@ -129,11 +133,11 @@ The server *must* be oblivious to what's happening on it. But, how do we send a 
 
 ## Private Information Retrieval
 
-A quick and easy solution for the server would be to just deliver each message to each user. In essence
+A quick and easy solution for the server would be to just deliver *every* message to *every* user. In essence
 creating a *broadcast* protocol, in which everybody sees everything. Because the messages
 are end-to-end encrypted, arrive at pre-determined regular intervals, and are the same size (see previous points),
 the server would not know what's going on at all. Also because of the end-to-end encryption users would only be 
-able to actually read the message which was written explicitly for them.
+able to actually read the message which was written explicitly for them, so it would still be perfectly secure.
 
 This protocol would work, but would be extremely difficult to scale. If we assume a handheld
 device with somewhat limited connectivity, receiving *all* messages from all the users worldwide
@@ -150,7 +154,7 @@ was returned. The server is therefore at no time in possession of any informatio
 the existence of a communication, let alone the identities of parties involved, because it is unable to
 make the connection between sender and receiver.
 
-There are some trade-offs involved by using *PIR* however. It is computationally expensive
+There are some trade-offs involved in using *PIR* however. It is computationally expensive
 relative to other services that route messages. A server that routes messages can directly
 answer a query by accessing the required message (or inbox). Every single *PIR* query however has to
 calculate a cryptographic function over *all* messages. This is the only way the server
