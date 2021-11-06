@@ -152,7 +152,8 @@ bandwidth than downloading all messages.
 So *PIR* is a way to query the server for a message without the server finding out what message, if any, 
 was returned. The server is therefore at no time in possession of any information that would reveal
 the existence of a communication, let alone the identities of parties involved, because it is unable to
-make the connection between sender and receiver.
+make the connection between sender and receiver. Because the messages are encrypted and would look like
+random noise to the server, it can not even tell whether a single message is being exchanged or not.
 
 There are some trade-offs involved in using *PIR* however. It is computationally expensive
 relative to other services that route messages. A server that routes messages can directly
