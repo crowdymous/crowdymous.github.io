@@ -124,7 +124,7 @@ But even if there is no law and the servers are physically secured, what about j
 employee to reveal some data? What about a disgruntled employee taking and revealing some data? *Any*
 information the server knows the provider and its employees could potentially know as well. It is therefore at risk.
 
-The only way to avoid all these problems however is to *not route*. Without the routing, the server doesn't need
+The only way to avoid all these problems is to *not route*. Without the routing, the server doesn't need
 to know anything at all, it is just a technical component that sits somewhere. Even if all the data
 that is available on it is stolen, leaked or collected, there is nothing there. Not even
 for a millisecond. No connections between devices, no contents, no contact lists, nothing.
