@@ -3,7 +3,7 @@ title: 'Untraceable Communication is Here'
 subtitle: 'Digital Spycraft'
 date: 2021-10-29 00:00:00
 description: Spies have been using physical "Dead Drops" to exchange information securely for decades. This method has now become digital and accessible to everyone.
-featured_image: images/phone_user.jpg
+featured_image: images/parkbench.jpg
 ---
 
 Have you ever watched a spy movie where the hero causally walks to a bench in a park
@@ -182,3 +182,7 @@ Crowdymous' Dead Drop App
 to provide **untraceable** communication to its users. A digital *Dead Drop*, that is even
 easier to use than real-life ones.
 
+<!--
+Photo by <a href="https://unsplash.com/@warrensammut?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Warren Sammut</a> on <a href="https://unsplash.com/s/photos/bench?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+-->
+  
